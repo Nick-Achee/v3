@@ -5,7 +5,6 @@ import BLOG from '@/blog.config'
 import Image from 'next/image'
 import { useLocale } from '@/lib/locale'
 import ThemeSwitch from "./ThemeSwitch"
-import MobileNav from './MobileNav'
 
 const NavBar = () => {
   const locale = useLocale()
@@ -91,7 +90,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
               )}
         </div>
         <NavBar />
-        <MobileNav  />
+        
       </div>
     </>
   )
