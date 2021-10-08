@@ -72,7 +72,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a>
               <div className="text-xl text-dark dark:text-day header name h-6">
-            <h1 className="text-xl">Nick Achee</h1>
+            <h1 className="text-xl">Nick chee</h1>
               </div>
             </a>
           </Link>
