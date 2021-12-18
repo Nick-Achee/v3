@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Script from 'next/script'
 import BLOG from '@/blog.config'
 
